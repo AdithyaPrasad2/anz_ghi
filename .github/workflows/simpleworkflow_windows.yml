@@ -1,0 +1,8 @@
+name: windows simple workflow
+on : push
+jobs:
+  my-first-job:
+    name: my first job
+    runs-on: windows-latest
+    steps:
+      - run: echo "Hello World!"
